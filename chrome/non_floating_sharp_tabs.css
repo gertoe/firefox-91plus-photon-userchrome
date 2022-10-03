@@ -15,7 +15,7 @@ See the above repository for updates as well as full license text. */
 }
 
 /* Uncomment next line to force specific color for tab top line */
-/* #tabbrowser-tabs{ --tab-line-color: blue !important; } */
+/* #tabbrowser-tabs{ --tab-line-color: red !important; } */
 
 /* These next two rules set a color for border around tabs and between tabs & navigation toolbars. Set to transparent to remove the border.*/
 #nav-bar{
@@ -26,6 +26,8 @@ See the above repository for updates as well as full license text. */
 .tab-background[selected]{
   /*border-inline: 1px solid color-mix(in srgb, currentcolor 30%, transparent) !important;*/
   border-inline: none !important;
+/* Removes outline ("frameline" around selected tab) */
+  outline: none !important;
 }
 
 #TabsToolbar{
